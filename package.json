@@ -1,0 +1,22 @@
+{
+    "name": "optus",
+    "version": "1.0.0",
+    "description": "Angular test for optus - by: Alireza Dezfoolian",
+    "main": "index.js",
+    "scripts": {
+        "test": "karma start karma.conf.js"
+    },
+    "author": "Alireza Dezfoolian",
+    "license": "ISC",
+    "devDependencies": {
+        "angular": "^1.5.7",
+        "angular-mocks": "^1.5.8",
+        "gulp-sass": "^2.3.2",
+        "gulp-webserver": "^0.9.1",
+        "jasmine-core": "^2.4.1",
+        "karma": "^1.1.2",
+        "karma-chrome-launcher": "^1.0.1",
+        "karma-coverage": "^1.1.1",
+        "karma-jasmine": "^1.0.2"
+    }
+}

@@ -1,0 +1,270 @@
+.margin-4 {
+  margin: 4px; }
+
+.btn {
+  display: inline-block;
+  padding: 2px 6px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none; }
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65; }
+
+.btn-info {
+  color: #00A2AE;
+  background-color: #afd8e5;
+  border-color: #afd8e5; }
+
+.btn-info:focus,
+.btn-info.focus {
+  color: #fff;
+  background-color: #00A2AE;
+  border-color: #00A2AE; }
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #00A2AE;
+  border-color: #00A2AE; }
+
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc; }
+
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85; }
+
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none; }
+
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background: #00A2AE; }
+
+select {
+  margin: 4px 6px 2px 38px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 120px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  height: 28px;
+  -moz-appearance: none;
+  appearance: none;
+  background: #ffffff;
+  vertical-align: middle; }
+
+.wrapper .lightbox {
+  position: absolute;
+  margin-top: -160px;
+  margin-left: -190px;
+  top: 50%;
+  left: 50%;
+  width: 380px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  padding-bottom: 20px; }
+  .wrapper .lightbox .head {
+    background-color: #fdd001;
+    width: 100%;
+    height: 40px;
+    text-align: center; }
+    .wrapper .lightbox .head p {
+      display: inline-block;
+      line-height: 10px;
+      margin-left: 10px;
+      font-weight: bold;
+      color: #00A2AE; }
+  .wrapper .lightbox .progress-bar {
+    margin: 28px auto;
+    vertical-align: middle;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #dddddd; }
+    .wrapper .lightbox .progress-bar .bar {
+      display: inline-block;
+      max-width: 100%;
+      height: 100%;
+      transition: all .8s; }
+  .wrapper .lightbox .progress-text {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: #808080;
+    top: -32px;
+    position: relative;
+    color: #000000; }
+  .wrapper .lightbox .tick {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 6px;
+    display: inline-block;
+    background-image: url("/images/tick.jpg");
+    width: 30px;
+    height: 30px; }
+  .wrapper .lightbox .close {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 6px;
+    display: inline-block;
+    background-image: url("/images/close.png");
+    width: 24px;
+    height: 24px; }
+
+.light-blue {
+  background: #afd8e5; }
+
+.red {
+  background: #ff0000; }
+
+@media only screen and (max-width: 700px) {
+  .wrapper .lightbox {
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    margin-left: 0; }
+    .wrapper .lightbox .progress-bar {
+      width: 80%; } }
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 320px auto; }
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #fdd001;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }
+
+@keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }

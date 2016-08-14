@@ -1,0 +1,4 @@
+<div class="progress-bar">
+    <span class="bar" ng-style="{'width': per/($root.limit/100) +'%'}" ng-class="{'light-blue':per<$root.limit, 'red':per>=$root.limit}"></span>
+    <span class="progress-text"> {{per+'%'}}</span>
+</div>

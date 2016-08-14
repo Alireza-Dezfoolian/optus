@@ -1,0 +1,94 @@
+body {
+    font: 100% $font-stack;
+    background: $green;
+}
+
+select {
+    margin: 4px 6px 2px 38px;
+    border: 1px solid #111;
+    background: transparent;
+    width: 120px;
+    font-size: 14px;
+    border: 1px solid $grey;
+    height: 28px;
+    -moz-appearance: none;
+    appearance: none;
+    background: $white;
+    vertical-align: middle;
+}
+
+.wrapper {
+    .lightbox {
+        position: absolute;
+        margin-top: -160px;
+        margin-left: -190px;
+        top: 50%;
+        left: 50%;
+        width: 380px;
+        border: 1px solid $grey;
+        background: $white;
+        padding-bottom: 20px;
+        .head {
+            background-color: $yellow;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            p {
+                display: inline-block;
+                line-height: 10px;
+                margin-left: 10px;
+                font-weight: bold;
+                color: $green;
+            }
+        }
+        .progress-bar {
+            margin: 28px auto;
+            vertical-align: middle;
+            height: 40px;
+            width: 300px;
+            border: 1px solid $grey;
+            .bar {
+                display: inline-block;
+                max-width: 100%;
+                height: 100%;
+                transition: all .8s;
+            }
+        }
+        .progress-text {
+            display: block;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 100;
+            color: #808080;
+            top: -32px;
+            position: relative;
+            color: $black;
+        }
+        .tick {
+            position: absolute;
+            bottom: 20px;
+            margin-left: 6px;
+            display: inline-block;
+            background-image: url("/images/tick.jpg");
+            width: 30px;
+            height: 30px;
+        }
+        .close {
+            position: absolute;
+            bottom: 20px;
+            margin-left: 6px;
+            display: inline-block;
+            background-image: url("/images/close.png");
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.light-blue {
+    background: $blue;
+}
+
+.red {
+    background: $red;
+}

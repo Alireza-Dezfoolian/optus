@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <div class="lightbox">
+        <div class="head">
+            <p>{{title}}</p>
+        </div>
+        <bar ng-repeat="bar in bars track by $index" id="progress{{$index+1}}" per="{{bar}}"></bar>
+        <dropdown></dropdown>
+        <btn ng-click="barChanger(button)" ng-repeat="button in buttons track by $index" num="button"></btn>
+    </div>
+</div>
